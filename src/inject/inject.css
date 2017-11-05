@@ -1,3 +1,9 @@
 /**
  * Place your custom CSS styles here.
  **/
+[data-peep=highlighted] {
+  background-color: lightblue;
+}
+[data-peep^=locked] {
+  background-color: lightgreen;
+}
